@@ -38,7 +38,8 @@ columns are described as follows:
 ```
 columns are described as follows:  
 1. ```<relative abundance>``` is a relative number of arbitrary size reflecting the copy number of the genome sequences of this specific taxon in the total taxon set.  
-2. ```<id_type>``` corresponds to the column names of the database suitable to identify a genomesequence. This can be "taxid", "gi" or "name".  
+2. ```<id_type>``` corresponds to the column names of the database suitable to identify a genome
+sequence. This can be "taxid", "gi" or "name".  
 3. ```<id>``` is the corresponding value the for chosen key identifer.  
 
 #####Suggested use of Metasim.sh:  
@@ -72,7 +73,8 @@ Put both SplitMetasimPairs.sh and SplitMetasimPairs.py in your PATH and run them
 - dataset\_000?-reads.R1.fa;  
 - dataset\_000?-reads.R2.fa;  
 - dataset\_000?-reads.merged.fa  
-which can then be used with PathoScope.
+which can then be used with PathoScope.  
+
 #####Suggested use of Cope.sh:
 Put Cope.sh in your PATH and run them in the same folder of the dataset\_000? folders.
 
